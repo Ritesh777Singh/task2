@@ -1,1 +1,13 @@
 
+// Find Area of Cube formula : a = 6a2
+#include <stdio.h>
+
+int main() {
+  int a,cube;
+  printf("enter the number : ");
+  scanf("%d",&a);
+  cube=6*a*a;
+  printf("totle number : %d",cube);
+
+    return 0;
+}
