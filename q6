@@ -1,1 +1,15 @@
+//. Find area of Rectangle Formula : A=wl
 
+#include <stdio.h>
+
+int main() {
+  int w,l,Rectangle;
+  printf("enter the fist number : ");
+  scanf("%d",&w);
+   printf("enter the   number : ");
+  scanf("%d",&l);
+Rectangle=w*l;
+  printf("totle number : %d",Rectangle);
+
+    return 0;
+}
