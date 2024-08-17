@@ -1,1 +1,13 @@
+//Find character value from ascii
 
+
+#include <stdio.h>
+
+int main() {
+char character;
+printf("entre the character : ");
+scanf("%c",&character);
+printf("entre the character for ascii'%c' : %d\n",character,(int)character);
+
+    return 0;
+}
