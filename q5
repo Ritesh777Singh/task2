@@ -1,1 +1,14 @@
+//. Find area of Triangle Formula : A = 1/2 × b × h
+#include <stdio.h>
 
+int main() {
+  int b,h,Triangle;
+  printf("enter the fist number : ");
+  scanf("%d",&b);
+   printf("enter the   number : ");
+  scanf("%d",&h);
+  Triangle=b*h*1/2;
+  printf("totle number : %d",Triangle);
+
+    return 0;
+}
