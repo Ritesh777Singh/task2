@@ -1,1 +1,12 @@
+//.Find ascii value of given number
+#include <stdio.h>
+
+int main() {
+int number;
+printf("entre the number : ");
+scanf("%d",&number);
+printf("entre the number for ascii'%d' : %c\n",number,number);
+
+    return 0;
+}
 
