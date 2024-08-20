@@ -7,7 +7,7 @@ int main() {
 char character;
 printf("entre the character : ");
 scanf("%c",&character);
-printf("entre the character for ascii'%c' : %d\n",character,(int)character);
+printf("entre the character for ascii'%c' : %d\n",character,character);
 
     return 0;
 }
