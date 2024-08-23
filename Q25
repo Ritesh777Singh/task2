@@ -1,1 +1,11 @@
+// Convert temperature Fahrenheit to Celsius  
+#include <stdio.h>
 
+int main() {
+ float Fahrenheit,Celsius;
+ printf("enter temperature Fahrenheit : ");
+ scanf("%f",&Fahrenheit);
+ Celsius=(Fahrenheit-32)*5/9;
+ printf("Fahrenheit to Celsius :%f", Celsius);
+    return 0;
+}
