@@ -1,1 +1,34 @@
 
+// Accept 5 employees name and salary and count average and total salary 
+#include <stdio.h>
+
+int main() {
+  char e_name1,e_name2,e_name3,e_name4,e_name5;
+  float e_salary1,e_salary2,e_salary3,e_salary4,e_salary5,average,total_salary;
+  printf("employees name1 : ");
+  scanf("%s",&e_name1);
+   printf("employees salary1 : ");
+  scanf("%f",&e_salary1);
+   printf("employees name2 : ");
+  scanf("%s",&e_name2);
+   printf("employees salary2 : ");
+  scanf("%f",&e_salary2);
+   printf("employees name3 : ");
+  scanf("%s",&e_name3);
+   printf("employees salary3 : ");
+  scanf("%f",&e_salary3);
+   printf("employees name4 : ");
+  scanf("%s",&e_name4);
+   printf("employees salary4 : ");
+  scanf("%f",&e_salary4);
+   printf("employees name5 : ");
+  scanf("%s",&e_name5);
+   printf("employees salary5 : ");
+  scanf("%f",&e_salary5);
+  total_salary =(e_salary1+e_salary2+e_salary3+e_salary4+e_salary5);
+  average=(e_salary1+e_salary2+e_salary3+e_salary4+e_salary5)/5;
+  printf("total salary :%f\n", total_salary);
+  printf("total average :%f", average);
+ 
+    return 0;
+}
