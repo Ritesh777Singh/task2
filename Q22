@@ -1,1 +1,16 @@
+//   WAP to calculate swap 2 numbers with using of multiplication and division.    
+#include <stdio.h>
+#include <math.h>
 
+int main() {
+ int num1,num2;
+ printf("enter the number1 : ");
+ scanf("%d",&num1);
+ printf("enter the number2 : ");
+ scanf("%d",&num2);
+ num1=num1*num2;
+ num2=num1/num2;
+ num1=num1/num2;
+ printf("swap number1 : %d\n",num1);
+ printf("swap number2 : %d",num2);
+}
