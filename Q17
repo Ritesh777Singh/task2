@@ -1,1 +1,11 @@
+//  Calculate person’s Annual salary  
+#include <stdio.h>
 
+int main() {
+ float annual_salary,monthly_salary;
+ printf("enter the monthly salary : ");
+ scanf("%f",&monthly_salary);
+ annual_salary= monthly_salary*12;
+ printf("annual salary :%f",annual_salary);
+    return 0;
+}
