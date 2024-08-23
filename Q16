@@ -1,1 +1,15 @@
+// Calculate person’s insurance premium based on salary 
+#include <stdio.h>
 
+int main() {
+ float annual_salary,monthly_salary,insurance_premium,premium_percentage;
+ printf("enter the monthly salary : ");
+ scanf("%f",&monthly_salary);
+ printf("enter the premium_percentage  : ");
+ scanf("%f",&premium_percentage);
+ annual_salary= monthly_salary*12;
+ printf("annual salary :%f\n",annual_salary);
+ insurance_premium=(annual_salary*premium_percentage*1/100);
+ printf("insurance premium :%f",insurance_premium);
+    return 0;
+}
