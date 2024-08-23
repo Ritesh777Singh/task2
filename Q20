@@ -1,1 +1,24 @@
-
+//   Accept 2 numbers from user and swap 2 numbers with using 3rd variable and without using 3rd variable   
+#include <stdio.h>
+int main() {
+ int num1,num2,num3;
+ printf("enter the number : ");
+ scanf("%d",&num1);
+ printf("enter the number : ");
+ scanf("%d",&num2);
+ printf("\n");
+ num3=num1;
+ num1=num2;
+ num2=num3;
+ printf("swap the number1 :%d\n",num1);
+ printf("swap the number2 :%d\n\n\n",num2);
+ 
+ printf("without using 3rd variable \n");
+ 
+ num1=num1+num2;
+ num2=num1-num2;
+ num1=num1-num2;
+  printf("swap the number3 :%d\n",num1);
+   printf("swap the number4 :%d\n",num2);
+    return 0;
+}
