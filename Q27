@@ -1,1 +1,16 @@
+// Convert years into days and months
 
+
+
+#include <stdio.h>
+
+int main() {
+    float   year,day,month;
+    printf ("enter the year : ");
+    scanf("%f",&year);
+    day = year*365;
+    month = year*12;
+    printf("day is :%.2f\n ",day);
+    printf("month is :%.2f ",month);
+    return 0;
+}
