@@ -1,1 +1,18 @@
+//C Program to Read Integer and Print First Three Powers (N^1, N^2, N^3)
+
+#include <stdio.h>
+
+int main() {
+int pow1,pow2,pow3,n;
+printf("enter the number : ");
+scanf("%d",&n);
+pow1=n;
+pow2=n*n;
+pow3=n*n*n;
+printf("power1 is :%d\n",pow1);
+printf("power2 is :%d\n",pow2);
+printf("power3 is :%d\n",pow3);
+    return 0;
+}
+
 
