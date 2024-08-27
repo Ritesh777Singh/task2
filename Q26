@@ -1,1 +1,11 @@
-
+// convert days into months
+#include <stdio.h>
+int main() {
+int day;
+float month;
+printf("enter the day : ");
+scanf("%d",&day);
+month=day/30;
+printf("month is %f",month);
+    return 0;
+}
