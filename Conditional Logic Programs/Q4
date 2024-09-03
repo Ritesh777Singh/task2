@@ -1,1 +1,58 @@
+// WAP to make simple calculator (operation include Addition, Subtraction,Multiplication, Division, modulo) using conditional statement
+#include <stdio.h>
+
+int main() {
+    int choice;
+    double num1, num2, result;
+    printf("Select operation:\n");
+    printf("1. Add\n");
+    printf("2. Sub\n");
+    printf("3. Multi\n");
+    printf("4. Div\n");
+    printf("5. Mod\n");
+
+    printf("Enter choice (1/2/3/4/5): ");
+    scanf("%d", &choice);
+
+    printf("Enter first number: ");
+    scanf("%lf", &num1);
+    printf("Enter second number: ");
+    scanf("%lf", &num2);
+
+    switch(choice) {
+        case 1:
+            result = num1 + num2;
+            printf("Result of add: %.2lf\n", result);
+            break;
+        case 2:
+            result = num1 - num2;
+            printf("Result of sub: %.2lf\n", result);
+            break;
+        case 3:
+            result = num1 * num2;
+            printf("Result of multi: %.2lf\n", result);
+            break;
+        case 4:
+            if (num2 != 0) {
+                result = num1 / num2;
+                printf("Result of div: %.2lf\n", result);
+            } else {
+                printf("Error: Division by zero is not allowed.\n");
+            }
+            break;
+        case 5:
+            if ((int)num2 != 0) {
+                result = (int)num1 % (int)num2;
+                printf("Result of mod: %d\n", (int)result);
+            } else {
+                printf("Error: Division by zero is not allowed.\n");
+            }
+            break;
+        default:
+            printf("Invalid choice. Please select a valid operation.\n");
+            break;
+    }
+
+    return 0;
+}
 
