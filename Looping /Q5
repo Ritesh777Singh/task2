@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&num);
     int factorial = 1;
     if(num < 0){
-        printf("Factorial of a negative number doesn't exist");
+        printf("factorial of a negative number doesn't exist");
     }
     else{
     for(int i = num; i>1 ; i--){
