@@ -1,1 +1,14 @@
+// 7. Accept marks from user and check pass or fail
+#include <stdio.h>
 
+int main() {
+ float mark;
+ printf("enter the mark : ");
+ scanf("%f",&mark);
+ if(mark >= 35){
+     printf("pass : %.2f",mark);
+ }else {
+     printf("fail : %.2f",mark);
+ }
+    return 0;
+}
