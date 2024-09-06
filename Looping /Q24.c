@@ -2,15 +2,19 @@
 
 #include <stdio.h>
 int main() {
-    int num;
+    int n;
     printf("Enter a number : ");
-    scanf("%d", &num);
-    for (int i = 1; i <= num; i++) {
-        if(i==num){
-            printf("%d ",i);
+    scanf("%d", &n);
+int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        if(i==n){
+            printf("%d =",i);
+            sum += i;
         }
         else{
         printf("%d + ",i);
+        sum += i;
         }
     }
+    printf("%d",sum);
 }
