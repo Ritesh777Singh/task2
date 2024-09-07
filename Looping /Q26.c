@@ -1,16 +1,17 @@
 //26. (1)+ (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+4+...+n)
 
 #include <stdio.h>
-int main() {
-    int num, sum = 0;
-    printf("Enter the number : ");
+int main () {
+    int num , totalsum = 0;
+    printf("enter the number: ");
     scanf("%d", &num);
-    for (int i = 1; i <= num; i++) {
-        for (int j = 1; j <= i; j++) {
-            sum += j;
+    for(int a = 1; a <= num; a++){
+        int sum = 0;
+        for(int b = 1; b <= a; b++){
+            sum += b;
         }
+        totalsum += sum; 
     }
-    printf("The sum of number : %d\n", sum);
-    return 0;
-}
+    printf("The sum of series is :  %d\n", totalsum);
 
+}
